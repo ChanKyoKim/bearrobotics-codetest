@@ -8,7 +8,7 @@ To make ATM doesn't know exact pin number, I defined two function 'checkpin()' a
 ## checkpin(num,id)
 num refers to the correct PIN number of inserted card. For this code test, I randonmly chose the number as '1234'. So to run my code, please enter '1234' as a correct pin number. For the future development, it is preferable to modify this function to identify pin number of differenct card(or card id). For the assurance of safety, main function 'BankSystem()' calls 'checkpin()' so that ATM only transfers entered PIN number and receives corresponding bool value (true of false) so that ATM doesn't remember, store, or recognize the correct PIN number.
 
-##other functions: loadbankaccount(num), showbankaccount(cardid), whichwork(banknum, cardid)
+## other functions: loadbankaccount(num), showbankaccount(cardid), whichwork(banknum, cardid)
 these three functions are declared to make the code easir to be understood and to make the main function 'BankSystem()' short and complete.
 
 ## bankforcardid1
