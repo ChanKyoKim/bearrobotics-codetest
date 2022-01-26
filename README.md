@@ -10,6 +10,7 @@ num refers to the correct PIN number of inserted card. For this code test, I ran
 
 ## other functions: loadbankaccount(num), showbankaccount(cardid), whichwork(banknum, cardid)
 these three functions are declared to make the code easir to be understood and to make the main function 'BankSystem()' short and complete.
+other instructions to run, build, test, and modify my project is included as comments on the python file.
 
 ## bankforcardid1
 this list is the data contains information of card with card id 1(randonmly chosen). For the convenience, I chosed two bank account from 'bank of america' as a default. Since this project is focused on the controller and ATM system, not a bank account management system, bankforcadid1 data can be modified in the future for the real-world implementation.
